@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+    --primary: white;
+    --primary-text: #151E1E;
+    --light-white: rgba(0, 0, 0, 0.1);
+    --hover-bg: rgba(0, 0, 0, 0.15);
+    --separation-line:#151E1E;
+    --icon-bg:black;
+    --icon-color:white;
+}
+
+[data-theme="dark"] {
+    --primary: #151E1E;
+    --primary-text: white;
+    --light-white: rgba(255, 255, 255, 0.3);
+    --hover-bg: rgba(255, 255, 255, 0.6);
+    --separation-line:white;
+    --icon-bg:white;
+    --icon-color:black;
+}
+
+
+@theme {
+    --color-primary: var(--primary);
+    --color-primary-text: var(--primary-text);
+    --color-light-white: var(--light-white);
+    --color-hover-bg: var(--hover-bg);
+    --color-separation-line:var(--separation-line);
+    --color-icon-bg:var(--icon-bg);
+    --color-icon-color:var(--icon-color);
+}
+
+*{
+    /* transition:  all 0.2s linear;  */
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ff4e50, #f9d423);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
