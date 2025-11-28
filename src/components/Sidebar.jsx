@@ -7,7 +7,7 @@ import { ChatBotContext } from '../context/chatbotContext'
 const Sidebar = () => {
 
     const [extent, setExtent] = useState(false)
-    const { style, setStyle, setHideShow, recentChat, setBtn, setDisableInput, setChatIndex, SetShowRecent } = useContext(ChatBotContext)
+    const { setStyle, setHideShow, recentChat, setBtn, setDisableInput, setChatIndex, SetShowRecent } = useContext(ChatBotContext)
 
     const handleNewLayout = () => {
         setHideShow(true)

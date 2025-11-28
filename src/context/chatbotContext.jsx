@@ -63,8 +63,6 @@ export const ChatBotProvider = ({ children }) => {
         setUserPrompt("")
     }
 
-
-
     return (
         <ChatBotContext.Provider value={{recentChat, userPrompt, setUserPrompt, setCopyUserPrompt, copyUserPrompt, style, setStyle, hideShow, setHideShow, askQuestion, response, btn, setBtn, setDisableInput, disableInput , setChatIndex , chatIndex , SetShowRecent , showRecent , animation}}>
             {children}
