@@ -1,6 +1,5 @@
 import React from 'react'
 import Sidebar from './components/Sidebar'
-import DarkMode from './components/DarkMode'
 import Separation from './components/Separation'
 import ChatSection from './components/ChatSection'
 
